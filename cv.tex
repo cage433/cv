@@ -13,10 +13,10 @@
 \def\posskip{\noalign{\medskip}}
 \midinsert
 \narrower\narrower\narrower
-\noindent I am a senior quantitative analyst working for an energy trading company with extensive experience in building mathematical models for exotic options in 
-different areas of finance, together with strong programming and systems development skills. Due to close contact with traders, and my own trading experience, I value
+\noindent I am a senior quantitative analyst and applications designer/developer working for an oil trading company. I have extensive experience in building mathematical models for exotic options in 
+different areas of finance, together with the ability to quickly deliver risk applications that meet the needs of the front and mid-office. Due to close contact with traders, and my own trading experience, I value
 solutions for their practicality and usefulness, rather than any theoretical elegance. I enjoy teaching, and am comfortable with communicating my ideas to people with all
-levels of experience, including those with very limited knowledge of financial maths.
+levels of experience, including those with very limited knowledge of financial maths and software develpment.
 \endinsert
 
 
@@ -24,29 +24,35 @@ levels of experience, including those with very limited knowledge of financial m
 \jobskip
 {\bf EMPLOYMENT}\cr
 \jobskip
-Oct 2001 -- Date&{\bf EDF Energy Merchants Ltd}\cr
+Sep 2009 - Date&{\bf Trafigura Ltd}\cr
+&2 Portman St\cr
+&London W1H 6DU\cr
+\posskip
+Position:&Head of Risk Systems\cr
+\posskip
+Duties:&\quad Responsible for managing the rewrite of Trafigura's risk management systems. The challenge has been to create from scratch a uniform real-time 
+reporting tool that sits in front of a number of legacy systems, before their eventual replacement. This is now in production for oil 
+derivatives traders and will be extended to physical trading later this year. This tool, Starling, has a flexible pivot reporting framework that provides the usual reports, P\&L, P\&L explanation, various greeks etc, as well as permitting intra-day trades and prices/vols to be uploaded seamlessly from Excel blotters.\cr
+&\quad Starling was developed extremely rapidly due in part to the depth of knowledge in financial maths throughout the team of developers I 
+manage. The team interacts directly with traders and other end users, rather than relying on business analysts. The adoption of more modern tools is 
+another factor, for example the language used for most development was Scala, a hybrid functional/OO language that runs on the JVM and permits more 
+rapid development and refactoring ease.\cr
+\jobskip
+Oct 2001 -- Jul 2009&{\bf EDF Energy Merchants Ltd}\cr
 &Mid City Place\cr
 &71 High Holborn\cr
 &London WCV 6ED\cr
 \posskip
 Position:&Senior Quantitative Analyst\cr
 \posskip
-Duties:&\quad Since joining EDF Energy Merchants, the main trading arm of the French power supplier, Electricit\'e de France, I have been responsible for developing
-mathematical models for the company's entire portfolio of exotic deals, raging from asian options, fixed and floating strike spread options, to 
-complex swing, storage and hydroelectric deals. Due to inherent differences with more established derivatives markets, such as fixed income or equity, this work
-involves the creation of new models to describe the behaviour of prices, especially price spikes, as well as techniques to capture the effects of seasonality while 
-keeping the number of model factors small.\cr
-&\quad At EDF I have been greatly involved in the design and development of a risk management and pricing system, written using java, ruby, lisp and C. This
-currently holds the deals for all the company's option books, around 200K deals. I have worked on this system since inception, writing
-all but the very simplest models, tools to extrapolate finely grained prices and volatilities from imperfect market data, VAR reporting and many deal 
-specific risk analysis reports.
-Besides being solely responsible for the mathematical side of this system, I designed and implemented large parts of its infrastructure, 
-including the schema for representing data, as well as the underlying database, and have also built a profiler, 
-which has been fundamental in the construction of very fast models. \cr
-&\quad This role requires me to work closely with people having different levels of knowledge of derivatives theory, including the heads and senior traders of the derivatives 
-and structuring departments; quants and quant developers throughout the EDF group, to whom I present papers at seminars held at EDF's research centre at Paris; 
-non-mathematical colleagues, with whom I enjoy the challenge of explaining my work in a non-technical way, so that they can develop an intuitive idea for the maths, as well
-as the reasoning behind it.\cr
+Duties:&\quad Responsible for modelling the company's portfolio of exotic options. These mostly came about from the company's physical assets, including
+complex swing, storage and hydroelectric deals. Many of the models involved new approaches that differed from existing literature, most notably with 
+the construction of finely grained price curves from coarse market data, together with new price processes to describe the behaviour of 
+these - in particular with respect to price spikes.\cr
+&\quad I was greatly involved in the design and development of a risk management sytem to manage the porfolios that contained these complex deals. 
+Besides being solely responsible for the mathematical side of this system, I designed and implemented large parts of its infrastructure.  
+I also developed our own profiler, 
+which became essential in the construction of very fast models. \cr
 \jobskip
 Apr 2000 -- Sep 2001 &{\bf Sempra Energy Trading}\cr
 &Tower 42\cr
@@ -57,9 +63,7 @@ Position: &Senior Quantitative Analyst\cr
 \posskip
 Duties:&\quad This role involved the design of new models for Sempra's growing exotics business, working closely
 with the structuring department in order that their deals closely matched their clients' risk requirements, while
-minimising the exposure to unhedgeable risks. I maintained frequent contact with the head of derivatives and the principal traders, ensuring
-that my models captured the most important risk factors relevant to each deal, and that the reporting tools were sufficient 
-for their needs, making modifications for specific deal types where necessary.\cr
+minimising the exposure to unhedgeable risks. \cr
 &\quad Along with a small team of developers, I was responsible for the design and development of a new trading/risk management system, which to the best of my knowledge 
 is still the company's main source of risk reporting. I left Sempra to follow the head of derivatives to EDF.\cr
 \jobskip
@@ -82,10 +86,7 @@ Position: &Exotic options trader / Quant developer\cr
 \posskip
 Duties:&\quad At IBJ I made markets in exotic interest rate and FX options, as well as dynamically hedging the portfolio. A large part of my time was spent working on an 
 existing exotic options system, written in C++. Here I rewrote most of the models, giving them a more rigorous basis and generalising to a multi-factor setting. These models 
-were significantly faster than those offered by commercial systems at the time. I greatly improved the system's generation of risk and hedging reports, turning a lengthy 
-overnight process into one that took only minutes to complete, allowing much 
-quicker responses to the sharp moves in interest and fx rates which then prevailed.\cr
-&\quad The exotic options department was eventually closed due to the restructuring of the Japanese banking system at that time.\cr
+were significantly faster than those offered by commercial systems at the time.\cr
 \jobskip
 Feb 1997 -- Mar 1997&{\bf Exco Money Broking UK Ltd}\cr
 &119 Cannon Street\cr
@@ -110,7 +111,6 @@ inefficiencies in the Japanese and German bond option markets. These inefficienc
 in the relationships between bond options, repo and futures markets.
 While at Sumitomo I developed all of the systems involved in the pricing, analysis and risk management of these options books, and wrote systems to help the other
 fixed income traders in their work.\cr
-&\quad I left Sumitomo due to the closure of the entire fixed income department, caused by the restructuring of the Japanese banking system at that time.\cr
 \jobskip
 April 1993 -- Feb 1995&{\bf Rolfe \& Nolan Plc}\cr
 \posskip
